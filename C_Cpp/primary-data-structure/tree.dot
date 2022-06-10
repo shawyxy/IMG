@@ -1,0 +1,10 @@
+digraph binaryTree{
+    node[shape=circle,color=red,fontcolor=blue,fontsize=10];
+    root[color=blue,fontcolor=black,fontsize=20];
+    root->a[style=dotted];
+    root->b;
+    a->c;
+    a->d;
+    b->e;
+    b->f;
+}
