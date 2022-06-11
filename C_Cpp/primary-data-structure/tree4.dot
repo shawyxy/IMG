@@ -1,0 +1,40 @@
+graph binaryTree{
+    node[style=filled,shape=circle,fontcolor=black,
+    fontsize=40,fillcolor=white];
+   // root[fontcolor=black,fontsize=40];
+
+
+
+    // 四--五;
+    // 四--三;//三[color=red,style=fill]
+    // 五--{二,六};[color=red,style=fill]
+    // 四--二;二[color=red,style=fill]
+    // 四--三;三[color=red,style=fill]
+    // 二--{五,六};
+    //三[color=red,style=fill]
+    //五--{,六};[color=red,style=fill]
+    
+    // 二--四;
+    // 二--一;
+    // 四--{五,六};
+    // 一--{三,无};一[color=red,style=fill]
+    // 一--四;
+    // 一--二;
+    // 四--{五,六};
+    // 二--{三,无};//一[color=red,style=fill]
+    // 二--四;二[color=blue,style=fill]
+    // 二--三;
+    // 四--{五,六};六[color=red,style=fill]
+    // 六--四;六[color=red,style=fill]
+    // 六--三;
+    // 四--{五,二};[color=blue,style=fill]
+    // 五--四;五[color=red,style=fill]
+    // 五--六;
+    // 四--{三,二};三[color=blue,style=fill];二[color=blue,style=fill]
+    // 六--五;六[color=blue,style=fill]
+    // 六--四;五[color=blue,style=fill];四[color=blue,style=fill]
+    // 五--{三,二};三[color=blue,style=fill];二[color=blue,style=fill]
+    三--四;
+    三--六;
+    四--{五,二};二[color=blue,style=fill]
+}

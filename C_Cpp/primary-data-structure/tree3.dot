@@ -1,0 +1,10 @@
+graph binaryTree{
+    node[style=filled,shape=circle,fontcolor=black,
+    fontsize=40,fillcolor=white];
+   // root[fontcolor=black,fontsize=40];
+    四--五;四[color=red,style=fill];
+    五--{二,六};
+    四--三;
+
+
+}
