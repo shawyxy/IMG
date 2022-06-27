@@ -1,0 +1,12 @@
+graph binaryTree{
+    node[style=filled,shape=circle,fontcolor=black,
+    fontsize=40,fillcolor=white];
+    1--2;
+    1--4;
+    2--3;
+    2--0;
+    4--5;
+    4--6;
+
+    
+}
